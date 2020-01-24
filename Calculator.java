@@ -9,14 +9,14 @@ Scanner Calc = new Scanner(System.in);
 
 do
 {
-
+//Calculator functions
 System.out.println("Choose \n1 add \n2 sub\n 3 mul\n4 div " );
 int n = Calc.nextInt();
 int a=25, b=5;
-add= a+b;
-sub=a-b;
-mul=a*b;
-div=a/b;
+add= a+b;     //Addition
+sub=a-b;      //Subtraction 
+mul=a*b;      //Multiply
+div=a/b;      //Division
 if(n==1)
 System.out.println("Addition is "+ add );
 else if(n==2)
