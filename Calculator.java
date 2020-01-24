@@ -4,6 +4,11 @@ public class Calc{
 public static void main(String args[])
 {
 int add, sub, mul, div;
+char dec ;
+Scanner Calc = new Scanner(System.in);
+
+do
+{
 
 System.out.println("Choose \n1 add \n2 sub\n 3 mul\n4 div " );
 int n = Calc.nextInt();
@@ -22,6 +27,12 @@ else if(n==4)
 System.out.println("Division is "+ div );
 else
 System.out.println("Wrong call please try again!!!" );
+System.out.println("if u want to try again press y" );
+dec = Calc.next().charAt(0);
+
+}while(dec=='y');
+  
+
 
 }
 }
