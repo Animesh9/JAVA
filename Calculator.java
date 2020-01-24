@@ -6,7 +6,7 @@ public static void main(String args[])
 int add, sub, mul, div;
 char dec ;
 Scanner Calc = new Scanner(System.in);
-
+//DO-WHILE loop for RECURSION
 do
 {
 //Calculator functions
