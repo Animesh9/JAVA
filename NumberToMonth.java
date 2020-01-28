@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Months{
+public class NumberToMonth{
 public static void main(String args[])
 {
 
