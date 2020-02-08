@@ -19,3 +19,7 @@ int volume()
 return(area()*h);
 }
 }
+class PrivateClass
+{
+
+}
