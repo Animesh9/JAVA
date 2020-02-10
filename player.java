@@ -39,3 +39,17 @@ super.show();
 System.out.println("Player type : "+type);
 }
 }
+class hockey_player extends player
+{
+String type;
+hockey_player(String n, String t,int a)
+{
+super(n,a);
+type=t;
+}
+public void show()
+{
+super.show();
+System.out.println("Player type : "+type);
+}
+}
