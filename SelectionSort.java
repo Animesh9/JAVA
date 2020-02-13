@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class r1
+public class SelectionSort
 {
 public static void main (String args[])
 {
