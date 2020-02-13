@@ -25,6 +25,10 @@ i[j]=t;
 }
 }
 }
+for (k=0;k<n;k++)
+{
+System.out.println(i[k]+" ,");
+}
 
 }
 }
