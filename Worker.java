@@ -24,3 +24,18 @@ show();
 System.out.println("Salary :-"+r*h );
 }
 }
+class salariedworker extends worker
+{
+int r ;
+salariedworker(String n,int no,int r)
+{
+super(n,no);
+this.r=r;
+}
+int hour = 40;
+void company()
+{
+show();
+System.out.println("Salary :-"+ r*hour );
+}
+}
