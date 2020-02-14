@@ -39,3 +39,14 @@ show();
 System.out.println("Salary :-"+ r*hour );
 }
 }
+class Work
+{
+public static void main(String args[])
+{
+
+dailyworker d = new dailyworker("Animesh",555,888);
+salariedworker s = new salariedworker("Ani",884,963);
+d.company(55);
+s.company();
+}
+}
