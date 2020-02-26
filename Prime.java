@@ -4,7 +4,7 @@ public static void main(String args[])
 {
     int n, i, prime = 0;
     System.out.println("Enter a positive integer: ");
-    Scanner s = new Scanner();
+    Scanner s = new Scanner(System.in);
     n = s.nextInt();
     for (i = 2; i <= n / 2; ++i) 
     {
