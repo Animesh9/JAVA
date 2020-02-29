@@ -1,5 +1,4 @@
-package in.javadomain;
-immport java.util.Scanner;
+import java.util.Scanner;
 public class PosComb{
 public static void main(String args[])
 {
