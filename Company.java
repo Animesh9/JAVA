@@ -37,4 +37,20 @@ public String department="d";
 
 }
 class Company{
+public static void main(String args[])
+{
+Scanner sc= new Scanner(System.in);
+System.out.println("enter the name");
+String n=sc.next();
+System.out.println("enter the employee id");
+int e=sc.nextInt();
+System.out.println("enter the salary");
+int s=sc.nextInt();
+System.out.println("enter the percentage_rate increaced in salary");
+double p=sc.nextDouble();
+employee m=new employee(n,e,s);
+System.out.println(m.no());
+System.out.println(m.fo());
+System.out.println(m.increaseSalary(p));
+}
 }
