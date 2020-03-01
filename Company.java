@@ -36,3 +36,5 @@ class manager extends employee
 public String department="d";
 
 }
+class Company{
+}
