@@ -31,3 +31,8 @@ double s=salary+in;
 return s;
 }
 }
+class manager extends employee
+{
+public String department="d";
+
+}
