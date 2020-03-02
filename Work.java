@@ -19,5 +19,11 @@ System.out.println(s_rate*40);
 }
 class Work
 {
-
+public static void main(String args[])
+{
+daily_worker k= new daily_worker();
+k.compay(48);
+salaried_worker j=new salaried_worker();
+j.compay(48);
+}
 }
