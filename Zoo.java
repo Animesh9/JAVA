@@ -32,3 +32,11 @@ super(name,age,type);
 super.talk();
 }
 }
+class Tiger extends Animals
+{
+Tiger(String name,int age,String type)
+{
+super(name,age,type);
+super.talk();
+}
+}
