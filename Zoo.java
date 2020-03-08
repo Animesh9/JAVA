@@ -24,3 +24,11 @@ void talk()
 System.out.println("Name " + name + "\nAge " + age + "\nType " + type);
 }
 }
+class Lion extends Animals
+{
+Lion(String name , int age , String type)
+{
+super(name,age,type);
+super.talk();
+}
+}
