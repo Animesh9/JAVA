@@ -40,3 +40,22 @@ super(name,age,type);
 super.talk();
 }
 }
+class Zoo 
+{
+public static void main(String args [])
+{
+Scanner s = new Scanner(System.in);
+char input;
+Lion l1 = new Lion("Lion" , 4 ,"Lion");
+Tiger t1 = new Tiger ("Tiger" , 4 ,"Omnivores");
+do
+{
+String name = s.nextLine();
+int age = s.nextInt();
+String type = s.nextLine();
+Lion l2 = new Lion( name ,age  , type );
+System.out.println("Add Animal ") ;
+input = s.next().charAt(0);
+}while (input == 'y');
+}
+}
