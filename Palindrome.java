@@ -9,6 +9,13 @@ String a=sc.nextLine();
 StringBuffer sb=new StringBuffer(a);
 sb.reverse();
 String s2 = sb.toString(); 
-
+if(a.equals(s2))
+{
+System.out.println("YES");
+}
+else
+{
+System.out.println("NO");
+}
 }
 }
