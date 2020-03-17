@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 abstract class Animals
 {
 String name; 
@@ -57,5 +58,6 @@ Lion l2 = new Lion( name ,age  , type );
 System.out.println("Add Animal ") ;
 input = s.next().charAt(0);
 }while (input == 'y');
+
 }
 }
