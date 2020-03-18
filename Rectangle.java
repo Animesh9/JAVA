@@ -32,3 +32,21 @@ if(width<0 || width>20)
 System.out.println("You cannot enter width greater than 20 and less than 0.\nEnter Valid Input. \n");
 }
 }
+void setlenght() 
+{
+System.out.println("Enter lenght of rectangle: ");
+lenght = s.nextFloat();
+if(lenght<0 || lenght>20)
+{
+System.out.println("You cannot enter lenght greater than 20 and less than 0.\nEnter Valid Input.\n");
+}
+}
+void calculation()
+{
+area=width*lenght;
+}
+void display()
+{
+System.out.println("Area of rectangle according to given parameters is: " + area);
+}
+}
