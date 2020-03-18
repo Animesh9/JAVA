@@ -12,3 +12,23 @@ do, in fact, specify a rectangle otherwise throw an exception. Member functions 
 width, perimeter and area. The length is the larger of the two dimensions.
 Include a function square that determines if the rectangle is a square.
 */
+import java.util.Scanner;
+class area
+{
+Scanner s = new Scanner(System.in);
+float width, lenght, area;
+area() 
+{
+width=1;
+lenght=1;
+area=0;
+}
+void setwidth()
+{
+System.out.println("Enter width of rectangle: ");
+width = s.nextFloat();
+if(width<0 || width>20)
+{
+System.out.println("You cannot enter width greater than 20 and less than 0.\nEnter Valid Input. \n");
+}
+}
