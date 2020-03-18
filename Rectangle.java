@@ -89,3 +89,7 @@ boolean isSquare()
 return (getWidth() == getLength());
 }
 }
+public class Rectangle
+{
+
+}
