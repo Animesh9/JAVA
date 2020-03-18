@@ -1,3 +1,4 @@
+//Assignment Q2
 /*
 Create a class Rectangle. The class has attributes length and width, each of which defaults to 1.
 It has member functions that calculate the perimeter and the area of the rectangle.
