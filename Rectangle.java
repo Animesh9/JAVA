@@ -91,5 +91,34 @@ return (getWidth() == getLength());
 }
 public class Rectangle
 {
-
+public static void main(String args[])
+{
+area c = new area();
+char ask;
+do{
+Scanner s = new Scanner(System.in);
+c.setwidth();
+c.setlenght();
+c.calculation();
+c.display();
+System.out.println("Do you want to calculate again? Y/N ");
+ask = s.next().charAt(0);
+}while (ask=='Y' || ask== 'y');
+Scanner s = new Scanner(System.in);
+System.out.print("Enter width:");
+int width=s.nextInt();
+System.out.print("Enter length:");
+int length=s.nextInt();
+Cartesian rect = new Cartesian(width, length);
+System.out.println("Area: " + rect.getArea());
+System.out.println("Perimeter: " + rect.getPerimeter());
+if(rect.isSquare())
+{
+System.out.println("This is a square.");
+}
+else
+{
+System.out.println("This is not a square.");
+}
+}
 }
