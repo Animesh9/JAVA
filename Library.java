@@ -70,6 +70,12 @@ System.out.println("Tape's playing time: " + ptime +"\n");
 class Library{
 public static void main(String args[])
 {
-
+Scanner s = new Scanner(System.in);
+book b = new book();
+tape t = new tape();
+b.getdata();
+t.getdata();
+b.putdata();
+t.putdata();
 }
 }
