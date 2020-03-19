@@ -14,3 +14,8 @@
  a book object and a tape object and exercise their input/output capabilities. 
  */
 import java.util.Scanner;
+class publication
+{
+Scanner s = new Scanner(System.in);
+String title;
+float price;
