@@ -36,3 +36,34 @@ System.out.println("Publication title: " + title + "\n");
 System.out.println("Publication price: " + price + "\n");
 }
 }
+class book extends publication
+{
+int pagecount;
+void getdata()
+{
+super.getdata();
+System.out.println("Enter Book Page Count: ");
+pagecount = s.nextInt();
+}
+void putdata()
+{
+super.putdata();
+System.out.println("Book page count: " + pagecount + "\n");
+}
+}
+class tape extends publication
+{
+Scanner s = new Scanner(System.in);
+float ptime;
+void getdata()
+{
+super.getdata();
+System.out.println("Enter tape's playing time: ");
+ptime = s.nextFloat();
+}
+void putdata()
+{
+super.putdata();
+System.out.println("Tape's playing time: " + ptime +"\n");
+}
+}
