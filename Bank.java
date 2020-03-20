@@ -83,4 +83,40 @@ System.out.println("The amount cannot be withdrawn");
 }
 }
 }
-
+class curacct extends account
+{
+Scanner s = new Scanner(System.in);
+int chq_bk;
+int penal;
+int min_bal()
+{
+int ret1=1;
+if(bal<=500)
+{
+penal=50;
+bal=bal-penal;
+ret1=0;
+}
+else
+{
+System.out.println("\n No penality imposed");
+}
+return ret1;
+}
+void withdrawal()
+{
+int amt;
+System.out.println("\n Enter the amount to withdrawn");
+amt = s.nextInt();
+int k=min_bal();
+if(k==1)
+{
+if(bal>=amt)
+bal=bal-amt;
+}
+else
+{
+System.out.println("\n The amount cannot be withdrawn");
+}
+}
+}
