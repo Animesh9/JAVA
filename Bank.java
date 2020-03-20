@@ -8,8 +8,10 @@ and if the balance falls below this level, a service charge is imposed.  Create 
 account that stores customer name, account number (Should generate automatically if new 
 customer added) and type of account. From this derive the classes cur_acct and sav_acct 
 to make them more specific to their requirements. Include necessary member functions in 
-order to achieve the following tasks: a. Accept deposit from a customer and update the 
-balance b. Display the balance. c. Compute and deposit interest. d. Permit withdrawal and
-update the balance. e. Check for minimum balance, impose penalty, necessary and update the 
-balance.  
+order to achieve the following tasks: 
+a. Accept deposit from a customer and update the balance 
+b. Display the balance. 
+c. Compute and deposit interest. 
+d. Permit withdrawal andupdate the balance. 
+e. Check for minimum balance, impose penalty, necessary and update the balance.  
  */
