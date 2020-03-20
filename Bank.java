@@ -17,3 +17,39 @@ e. Check for minimum balance, impose penalty, necessary and update the balance.
  */
 import java.util.Scanner;
 import java.lang.Math;
+class account
+{
+String cname;
+int accno;
+String type;
+int bal;
+void account(String cname , int accno , String type, int bal)
+{
+this.cname = cname;
+this.accno = accno;
+this.type = type;
+this.bal = bal;
+}
+void input()
+{
+Scanner s = new Scanner(System.in);
+System.out.println("Enter cname");
+cname = s.nextLine();
+System.out.println("Enter accno");
+accno = s.nextInt();
+System.out.println("Enter bal");
+bal = s.nextInt();
+}
+void display(){
+System.out.println("Customer Name " + cname);
+System.out.println("Account Number " + accno);
+System.out.println("Balance " + bal);
+}
+void deposit(){
+Scanner s = new Scanner(System.in);
+int amt;
+System.out.println("Enter the amount to deposit");
+amt = s.nextInt();
+bal=bal+amt;
+}
+}
