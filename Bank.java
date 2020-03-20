@@ -15,3 +15,5 @@ c. Compute and deposit interest.
 d. Permit withdrawal andupdate the balance. 
 e. Check for minimum balance, impose penalty, necessary and update the balance.  
  */
+import java.util.Scanner;
+import java.lang.Math;
