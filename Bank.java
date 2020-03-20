@@ -53,3 +53,34 @@ amt = s.nextInt();
 bal=bal+amt;
 }
 }
+class savacct extends account
+{
+Scanner s = new Scanner(System.in);
+double inter;
+int comp_int(){
+int time1,rate1;
+rate1=10;
+System.out.println("\nEnter time");
+time1 = s.nextInt();
+inter = bal*Math.pow(1+rate1/100 , time1) - bal ;
+return 1 ;
+}
+void update_bal()
+{
+bal=bal+comp_int();
+}
+void withdrawal()
+{
+int amt;
+System.out.println("Enter amount to withdrawn");
+amt = s.nextInt();
+if(bal>=amt){
+bal=bal-amt;
+}
+else
+{
+System.out.println("The amount cannot be withdrawn");
+}
+}
+}
+
