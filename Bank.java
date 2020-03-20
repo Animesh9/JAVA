@@ -120,3 +120,23 @@ System.out.println("\n The amount cannot be withdrawn");
 }
 }
 }
+public class Bank{
+public static void main(String args[])
+{
+Scanner s = new Scanner(System.in);
+curacct c1 = new curacct();
+savacct s1 = new savacct();
+c1.input();
+c1.display();
+c1.deposit();
+c1.display();
+c1.withdrawal();
+c1.display();
+s1.input();
+s1.display();
+s1.deposit();
+s1.display();
+s1.withdrawal();
+s1.display();
+}
+}
