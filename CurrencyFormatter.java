@@ -1,9 +1,7 @@
 import java.util.Scanner;
 import java.text.NumberFormat;
 import java.util.Locale;
-
 public class CurrencyFormatter {
-    
     public static void main(String[] args) {
         /* Read input */
         Scanner scanner = new Scanner(System.in);
@@ -21,4 +19,4 @@ public class CurrencyFormatter {
     }
 }
 
-//..HackerRank Code
+//....HackerRank Code....
