@@ -18,3 +18,12 @@ System.out.println("Withdrawl mone is "+amt);
 System.out.println("Your current balance is "+bal);
 }
 }
+class Customer implements Runnable
+{
+private String name;
+private Account account ;
+public Customer (Account account , String name)
+{this.account=account;
+this.name = name; 
+}
+
