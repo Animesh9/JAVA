@@ -26,4 +26,19 @@ public Customer (Account account , String name)
 {this.account=account;
 this.name = name; 
 }
-
+public void run()
+{
+Scanner s= new Scanner(System.in);
+synchronized(account){
+System.out.println(name + ",Enter amount to withdraw ");
+int amt = s.nextInt();
+if(account.isSufbal(amt))
+{
+System.out.println(name);
+account.withdraw(amt);
+}
+else
+System.out.println("Insufficient Balance");
+}
+}
+}
