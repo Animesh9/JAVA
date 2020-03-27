@@ -83,7 +83,7 @@ System.out.println("The amount cannot be withdrawn");
 }
 }
 }
-class curacct extends account  
+class curacct extends account  //class current account is extended by account
 {
 Scanner s = new Scanner(System.in);
 int chq_bk;
@@ -103,7 +103,7 @@ System.out.println("\n No penality imposed");
 }
 return ret1;
 }
-void withdrawal()
+void withdrawal()   //withdrawal in current account
 {
 int amt;
 System.out.println("\n Enter the amount to withdrawn");
