@@ -17,13 +17,13 @@ e. Check for minimum balance, impose penalty, necessary and update the balance.
  */
 import java.util.Scanner;
 import java.lang.Math;
-class account
+class account  // account class
 {
 String cname;
 int accno;
 String type;
 int bal;
-void account(String cname , int accno , String type, int bal)
+void account(String cname , int accno , String type, int bal)//In this constructor account parameters are passed.
 {
 this.cname = cname;
 this.accno = accno;
@@ -34,7 +34,7 @@ void input()
 {
 Scanner s = new Scanner(System.in);
 System.out.println("Enter cname");
-cname = s.nextLine();
+cname = s.nextLine();//user input is done using scanner class
 System.out.println("Enter accno");
 accno = s.nextInt();
 System.out.println("Enter bal");
