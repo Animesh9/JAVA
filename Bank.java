@@ -34,11 +34,11 @@ void input()
 {
 Scanner s = new Scanner(System.in);
 System.out.println("Enter cname");
-cname = s.nextLine();//user input is done using scanner class
+cname = s.nextLine();//user input of name is done using scanner class
 System.out.println("Enter accno");
 accno = s.nextInt();
 System.out.println("Enter bal");
-bal = s.nextInt();
+bal = s.nextInt();//scanning balance
 }
 void display(){
 System.out.println("Customer Name " + cname);
@@ -53,7 +53,7 @@ amt = s.nextInt();
 bal=bal+amt;
 }
 }
-class savacct extends account
+class savacct extends account //another class saving account is extended by account
 {
 Scanner s = new Scanner(System.in);
 double inter;
@@ -62,14 +62,14 @@ int time1,rate1;
 rate1=10;
 System.out.println("\nEnter time");
 time1 = s.nextInt();
-inter = bal*Math.pow(1+rate1/100 , time1) - bal ;
+inter = bal*Math.pow(1+rate1/100 , time1) - bal ;//this is mathematical function used to calculate balance
 return 1 ;
 }
 void update_bal()
 {
 bal=bal+comp_int();
 }
-void withdrawal()
+void withdrawal()//amount withdrwal is shown here
 {
 int amt;
 System.out.println("Enter amount to withdrawn");
@@ -83,7 +83,7 @@ System.out.println("The amount cannot be withdrawn");
 }
 }
 }
-class curacct extends account
+class curacct extends account  
 {
 Scanner s = new Scanner(System.in);
 int chq_bk;
