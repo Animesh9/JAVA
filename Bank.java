@@ -127,17 +127,18 @@ public static void main(String args[])
 Scanner s = new Scanner(System.in);
 curacct c1 = new curacct(); // object of current account 
 savacct s1 = new savacct(); // object of saving account
-c1.input(); 
-c1.display();
-c1.deposit();
-c1.display();
-c1.withdrawal();
-c1.display();
-s1.input();
-s1.display();
-s1.deposit();
-s1.display();
-s1.withdrawal();
-s1.display();
+c1.input(); //input of current account 
+c1.display(); //displaying current account
+c1.deposit(); // deposit in current account 
+c1.display(); // displaying current account after deposit
+c1.withdrawal();//withdrawal in current account
+c1.display();//displaying current account after withdrawal
+s1.input();//input for saving account
+s1.display();//displaying saving account
+s1.deposit();//deposit in saving account
+s1.display();//displaying saving account after ddeposit
+s1.withdrawal();//withdrawal saving account
+s1.display();//displaying saving account after withdrawal
 }
 }
+
