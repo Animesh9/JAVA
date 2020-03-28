@@ -13,6 +13,9 @@ try{
 c=a/b;
 System.out.println(a + " divide by "+ b +": = " + c);
 }
-
+catch(ArithmeticException e)
+{
+System.out.println("Exception : " + e.getMessage());
+}
 }
 }
