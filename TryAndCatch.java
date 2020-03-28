@@ -9,6 +9,10 @@ System.out.println("Enter value of a : ");
 a = s.nextInt();
 System.out.println("Enter value of b : ");
 b = s.nextInt();
+try{
+c=a/b;
+System.out.println(a + " divide by "+ b +": = " + c);
+}
 
 }
 }
