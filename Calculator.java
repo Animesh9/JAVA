@@ -31,8 +31,5 @@ System.out.println("if u want to try again press y" );
 dec = Calc.next().charAt(0);
 
 }while(dec=='y');
-  
-
-
 }
 }
