@@ -1,6 +1,6 @@
-import java.util.Scanner;
+import java.util.Scanner; //importing Scanner class
 public class Calc{
-public static void main(String args[])
+public static void main(String args[])//main...
 {
 int add, sub, mul, div;
 char dec ;
@@ -28,6 +28,6 @@ else
 System.out.println("Wrong call please try again!!!" );
 System.out.println("if u want to try again press y" );
 dec = Calc.next().charAt(0);
-}while(dec=='y');
+}while(dec=='y');//if decisision is y = yes then the loop will recurse again
 }
 }
