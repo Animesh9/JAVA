@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Calc{
 public static void main(String args[])
 {
@@ -29,7 +28,6 @@ else
 System.out.println("Wrong call please try again!!!" );
 System.out.println("if u want to try again press y" );
 dec = Calc.next().charAt(0);
-
 }while(dec=='y');
 }
 }
