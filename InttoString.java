@@ -10,7 +10,9 @@ public class Solution {
    int n = in .nextInt();
    in.close();
    //String s=???; Complete this line below
-   
+      //Write your code here
+    String s = String.valueOf(n);
+
    if (n == Integer.parseInt(s)) {
     System.out.println("Good job");
    } else {
