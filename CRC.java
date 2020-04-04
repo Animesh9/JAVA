@@ -30,3 +30,19 @@ for(i=0;i<n;i++)
 {
 k=0;
 msb=r[i];
+for(j=i;j<m+i;j++)
+{
+if(msb==0)
+r[j]=xor(r[j],z[k]);
+else
+r[j]=xor(r[j],g[k]);
+k++;
+}
+r[m+i]=d[m+i];
+}
+System.out.print("The code bits added are : ");
+for(i=n;i<n+m-1;i++)
+{
+d[i]=r[i];
+System.out.print(d[i]);
+}
