@@ -46,3 +46,18 @@ for(i=n;i<n+m-1;i++)
 d[i]=r[i];
 System.out.print(d[i]);
 }
+System.out.print("\nThe code data is :");
+for(i=0;i<n+m-1;i++)
+{
+System.out.print(d[i]);
+}
+}
+public static int xor(int x,int y)
+{
+if(x==y)
+return(0);
+else
+return(1);
+}
+}
+
