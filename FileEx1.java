@@ -7,6 +7,7 @@ File f1 = new File("d:/java/file1.txt");
 f1.createNewFile();
 System.out.println("Check if file exist or not.\nFile exist " + f1.exists());
 System.out.println("File Size " + f1.length());
-
+System.out.println("File name " + f1.getName());
+System.out.println("Can file read " + f1.canWrite());
 }
 }
