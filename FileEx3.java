@@ -11,5 +11,12 @@ char ch[] = s.toCharArray();
 for(i=0 ; i<s.length() ; i++)
 fout.write(ch[i]);
 fout.close();
-
+do 
+{
+i = fin.read();
+if(i!= -1)
+System.out.print((char)i);
+}while(i!=-1);
+fin.close();
+}
 }
