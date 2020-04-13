@@ -12,6 +12,7 @@ int x= Collections.binarySearch(h,10);
 System.out.println(h);
 Collections.swap(h,0,1);
 Collections.swap(h,2,3);
-
+System.out.println(h);
+System.out.println(x);
 }
 }
