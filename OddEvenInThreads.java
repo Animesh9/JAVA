@@ -45,6 +45,7 @@ class OddEvenInThreads
 {
 public static void main(String arg[])
 {
-
+even e=new even();
+odd o=new odd();
 }
 }
