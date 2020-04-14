@@ -19,3 +19,11 @@ catch(Exception e)
 }
 }
 }
+class odd extends Thread
+{
+Thread t=null;
+odd()
+{
+t=new Thread(this);
+start();
+}
