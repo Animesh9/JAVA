@@ -41,3 +41,10 @@ System.out.println("thread interepted");
 }
 }
 }
+class OddEvenInThreads
+{
+public static void main(String arg[])
+{
+
+}
+}
