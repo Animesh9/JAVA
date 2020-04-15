@@ -15,6 +15,17 @@ data d10=new data();
 System.out.println(d10.count);
 }
 }
+class item { static int count=0; }
+class data extends item implements Runnable
+{
+item d=this;
+Thread t;
+data()
+{
+t=new Thread(this);
+t.start();
+}
+public void run()
+{ d=sync.increment(d); }
+}
 
-}
-}
