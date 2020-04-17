@@ -24,6 +24,19 @@ if (map.containsValue(value))
 Iterator it = map.entrySet().iterator();
 while(it.hasNext()){ 
 String str = it.next().toString();
+if(str.split("=")[1].contains(String.valueOf(value)))
+{
+System.out.println("key for value "+ value  +" is: "+str.split("=")[0]); 
+}
+}
+} 
+System.out.println();
+System.out.println("Printing as key set :");
+Iterator it = map.keySet().iterator();
+while(it.hasNext())
+{ 
+System.out.println(it.next().toString());
+}
 
 }  
 } 
