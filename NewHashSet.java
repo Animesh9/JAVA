@@ -9,6 +9,11 @@ names.add("Ani");
 names.add("Kush");
 names.add("Roman");
 names.add("Chirag");
-
+HashSet hNames = new HashSet<>(names);
+System.out.println("Initial list :"+hNames);  
+String key = "Ani";
+System.out.println("Contains key '" + key+ "' ? :" + hNames.contains(key));
+hNames.clear();
+System.out.println("After clear() list :"+hNames);  
 }
 }
