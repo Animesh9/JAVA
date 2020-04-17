@@ -44,7 +44,13 @@ while(it.hasNext())
 {
 System.out.println(it.next().toString());
 }
-
+if (map.isEmpty()) 
+{ 
+System.out.println("map is empty"); 
+} 
+else 
+{ 
+System.out.println(map);
 }  
 } 
 } 
