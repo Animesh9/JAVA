@@ -37,6 +37,13 @@ while(it.hasNext())
 { 
 System.out.println(it.next().toString());
 }
+System.out.println();
+System.out.println("Printing as entry set :");
+it = map.entrySet().iterator();
+while(it.hasNext())
+{
+System.out.println(it.next().toString());
+}
 
 }  
 } 
