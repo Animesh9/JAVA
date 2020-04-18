@@ -20,6 +20,11 @@ System.out.println("Actual list OR Duplicated list :");
 while(IDnames.hasNext()){
 System.out.println(IDnames.next());			
 }
-
+System.out.println();
+Iterator Inames = names.iterator();
+System.out.println("Reversed List :");
+while(Inames.hasNext()){
+System.out.println(Inames.next());			
+}
 }
 }
