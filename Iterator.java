@@ -3,6 +3,11 @@ public class IteratorDemo
 {
 public static void main(String args[]) 
 {
+Set<String> newSet = new HashSet<String>();
+newSet.add("1");
+newSet.add("2");
+newSet.add("3");
+Iterator<String> itr = newSet.iterator();
 
 }
 }
