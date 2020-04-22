@@ -1,5 +1,5 @@
 import java.util.*;
-public class Iterator
+public class IteratorEx
 {
 public static void main(String args[]) 
 {
