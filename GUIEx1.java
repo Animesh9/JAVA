@@ -7,3 +7,10 @@ public static void main(String [] args)
 n obj = new n();
 }
 }
+class n extends JFrame
+{
+public n()
+{
+
+}
+}
