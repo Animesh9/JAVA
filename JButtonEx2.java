@@ -11,3 +11,15 @@ JButton b = new JButton("Click Here");
 b.setBounds(50,100,95,30);  
 b.addActionListener(new ActionListener()
 {
+public void actionPerformed(ActionEvent e)
+{
+t.setText("Welcome Animesh Jain");  
+}  
+});  
+f.add(b);
+f.add(t);  
+f.setSize(400,400);  
+f.setLayout(null);  
+f.setVisible(true);
+}
+}
