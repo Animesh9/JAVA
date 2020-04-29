@@ -5,3 +5,5 @@ public class AppletEx1 extends Applet
 {
 /*<applet code="AppletEx1" width = "300" height="200"> </applet>*/
 }
+
+//Run with appletviewer filename.java
