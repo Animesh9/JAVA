@@ -15,6 +15,17 @@ c++;
 System.out.println("number of occurance :"+c);
 System.out.println("Possition :"+(i+1));
 }
-
+if(c==0)
+System.out.println("there is no 'A' available in the string");
+}
+}
+class NameLocation
+{
+public static void main(String ar[])
+{
+data d1=new data("Animesh Jain");
+d1.disp();
+data d2=new data("Samkit Jain");
+d2.disp();
 }
 }
