@@ -12,5 +12,8 @@ str.replace(i, i+1, Character.toLowerCase(c)+"");
 } 
 } 
 
+public static void main(String[] args) 
+{ 
 
+} 
 } 
