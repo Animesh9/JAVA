@@ -24,6 +24,7 @@ t4.start();
 t4.setPriority(3);
 t5.start();
 t5.setPriority(8);
-
+System.out.println(t1.isAlive()); // checking whether the thread is alive or not
+System.out.println(t2.isAlive());
 }
 }
