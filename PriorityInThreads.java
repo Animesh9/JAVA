@@ -1,1 +1,4 @@
+class que implements Runnable 
+{
 
+}
