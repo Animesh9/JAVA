@@ -14,6 +14,16 @@ Thread t2 = new Thread(m);
 Thread t3 = new Thread(m);
 Thread t4 = new Thread(m);
 Thread t5 = new Thread(m);
+t1.start();
+t1.setPriority(5); // setting priority
+t2.start();
+t2.setPriority(10);
+t3.start();
+t3.setPriority(2);
+t4.start();
+t4.setPriority(3);
+t5.start();
+t5.setPriority(8);
 
 }
 }
