@@ -15,4 +15,6 @@ System.out.println("A number can not be divided by 0");
 }
 }
 }
+public class Exception2 {
+
 }
