@@ -40,6 +40,11 @@ class Emp
 {
 public static void main(String args[])
 {
+Scanner sc= new Scanner(System.in);
+System.out.println("enter the name");
+String n=sc.next();
+System.out.println("enter the employee id");
+int e=sc.nextInt();
 
 }
 }
