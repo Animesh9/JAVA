@@ -20,3 +20,14 @@ String no()
 {
 return name;
 }
+int fo()
+{
+return salary;
+}
+double increaseSalary(double per_in)
+{
+double in=(salary*(per_in/100));
+double s=salary+in;
+return s;
+}
+}
