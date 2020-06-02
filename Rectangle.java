@@ -16,36 +16,36 @@ Include a function square that determines if the rectangle is a square.
 import java.util.Scanner;
 class area
 {
-Scanner s = new Scanner(System.in);
-float width, lenght, area;
-area() 
-{
-width=1;
-lenght=1;
-area=0;
-}
-void setwidth()
-{
-System.out.println("Enter width of rectangle: ");
-width = s.nextFloat();
-if(width<0 || width>20)
-{
-System.out.println("You cannot enter width greater than 20 and less than 0.\nEnter Valid Input. \n");
-}
-}
-void setlenght() 
-{
-System.out.println("Enter lenght of rectangle: ");
-lenght = s.nextFloat();
-if(lenght<0 || lenght>20)
-{
-System.out.println("You cannot enter lenght greater than 20 and less than 0.\nEnter Valid Input.\n");
-}
-}
-void calculation()
-{
-area=width*lenght;
-}
+    Scanner s = new Scanner(System.in);
+    float width, lenght, area;
+    area() 
+    {
+        width=1;
+        lenght=1;
+        area=0;
+    }
+    void setwidth()
+    {
+        System.out.println("Enter width of rectangle: ");
+        width = s.nextFloat();
+        if(width<0 || width>20)
+        {
+            System.out.println("You cannot enter width greater than 20 and less than 0.\nEnter Valid Input. \n");
+        }
+    }
+    void setlenght() 
+    {
+        System.out.println("Enter lenght of rectangle: ");
+        lenght = s.nextFloat();
+        if(lenght<0 || lenght>20)
+        {
+            System.out.println("You cannot enter lenght greater than 20 and less than 0.\nEnter Valid Input.\n");
+        }
+    }
+    void calculation()
+    {
+        area=width*lenght;
+    }
 void display()
 {
 System.out.println("Area of rectangle according to given parameters is: " + area);
