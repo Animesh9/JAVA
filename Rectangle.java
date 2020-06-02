@@ -46,49 +46,49 @@ class area
     {
         area=width*lenght;
     }
-void display()
-{
-System.out.println("Area of rectangle according to given parameters is: " + area);
-}
+    void display()
+    {
+        System.out.println("Area of rectangle according to given parameters is: " + area);
+    }
 }
 class Cartesian
 {
-private
-int width = 0, length = 0;
-public
-Cartesian(int width, int length)
-{
-setWidth(width);
-setLength(length);
-}
-void setWidth(int width)
-{
-this.width = width;
-}
-void setLength(int length)
-{
-this.length = length;
-}
-int getWidth()
-{
-return this.width;
-}
-int getLength()
-{
-return this.length;
-}
-int getPerimeter()
-{
-return 2*getWidth() + 2*getLength();
-}
-int getArea()
-{
-return getWidth()*getLength();
-}
-boolean isSquare()
-{
-return (getWidth() == getLength());
-}
+    private
+    int width = 0, length = 0;
+    public
+    Cartesian(int width, int length)
+    {
+        setWidth(width);
+        setLength(length);
+    }
+    void setWidth(int width)
+    {
+        this.width = width;
+    }
+    void setLength(int length)
+    {
+        this.length = length;
+    }
+    int getWidth()
+    {
+        return this.width;
+    }
+    int getLength()
+    {
+        return this.length;
+    }
+    int getPerimeter()
+    {
+        return 2*getWidth() + 2*getLength();
+    }
+    int getArea()
+    {
+        return getWidth()*getLength();
+    }
+    boolean isSquare()
+    {
+        return (getWidth() == getLength());
+    }
 }
 public class Rectangle
 {
