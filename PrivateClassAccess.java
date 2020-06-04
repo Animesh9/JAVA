@@ -1,11 +1,14 @@
 class room
 {
-private int l,b;
-room(int x,int y)
-{ l=x; b=y;}
-int area()
-{return(l*b);}
-}
+    private int l,b;
+    room(int x,int y)
+    { 
+        l=x; b=y;
+    }
+    int area()
+    {
+        return(l*b);}
+    }
 class class_room extends room
 {
 int h;
