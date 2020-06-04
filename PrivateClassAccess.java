@@ -24,12 +24,12 @@ class class_room extends room
 }
 class PrivateClass
 {
-public static void main(String args[])
-{
-class_room cr=new class_room(10,20,15);
-int a1=cr.area();
-int v1=cr.volume();
-System.out.println("Area of Room : "+a1);
-System.out.println("Volume of Room : "+v1);
-}
+    public static void main(String args[])
+    {
+        class_room cr=new class_room(10,20,15);
+        int a1=cr.area();
+        int v1=cr.volume();
+        System.out.println("Area of Room : "+a1);
+        System.out.println("Volume of Room : "+v1);
+    }
 }
