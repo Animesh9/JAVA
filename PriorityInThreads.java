@@ -1,12 +1,13 @@
 class que implements Runnable 
 {
-public synchronized void run() 
+    public synchronized void run() 
+    {
+        System.out.println(Thread.currentThread().getName());
+        System.out.println("Threading is done" + Thread.currentThread().getPriority());
+    }
+}
+public class PriorityInThreads 
 {
-System.out.println(Thread.currentThread().getName());
-System.out.println("Threading is done" + Thread.currentThread().getPriority());
-}
-}
-public class PriorityInThreads {
 public static void main(String[] args) {
 que m = new que();
 Thread t1 = new Thread(m);
