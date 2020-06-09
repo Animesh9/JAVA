@@ -38,18 +38,18 @@ class publication
 }
 class book extends publication
 {
-int pagecount;
-void getdata()
-{
-super.getdata();
-System.out.println("Enter Book Page Count: ");
-pagecount = s.nextInt();
-}
-void putdata()
-{
-super.putdata();
-System.out.println("Book page count: " + pagecount + "\n");
-}
+    int pagecount;
+    void getdata()
+    {
+        super.getdata();
+        System.out.println("Enter Book Page Count: ");
+        pagecount = s.nextInt();
+    }
+    void putdata()
+    {
+        super.putdata();
+        System.out.println("Book page count: " + pagecount + "\n");
+    }
 }
 class tape extends publication
 {
