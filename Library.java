@@ -53,19 +53,19 @@ class book extends publication
 }
 class tape extends publication
 {
-Scanner s = new Scanner(System.in);
-float ptime;
-void getdata()
-{
-super.getdata();
-System.out.println("Enter tape's playing time: ");
-ptime = s.nextFloat();
-}
-void putdata()
-{
-super.putdata();
-System.out.println("Tape's playing time: " + ptime +"\n");
-}
+    Scanner s = new Scanner(System.in);
+    float ptime;
+    void getdata()
+    {
+        super.getdata();
+        System.out.println("Enter tape's playing time: ");
+        ptime = s.nextFloat();
+    }
+    void putdata()
+    {
+        super.putdata();
+        System.out.println("Tape's playing time: " + ptime +"\n");
+    }
 }
 class Library{
 public static void main(String args[])
