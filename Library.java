@@ -16,25 +16,25 @@
 import java.util.Scanner;
 class publication
 {
-Scanner s = new Scanner(System.in);
-String title;
-float price;
-void getdata()
-{
-String t;
-float p;
-System.out.println("Enter title: ");
-t = s.nextLine();
-System.out.println("Enter price: ");
-p = s.nextFloat();
-this.title = t;
-this.price = p;
-}
-void putdata()
-{
-System.out.println("Publication title: " + title + "\n");
-System.out.println("Publication price: " + price + "\n");
-}
+    Scanner s = new Scanner(System.in);
+    String title;
+    float price;
+    void getdata()
+    {
+        String t;
+        float p;
+        System.out.println("Enter title: ");
+        t = s.nextLine();
+        System.out.println("Enter price: ");
+        p = s.nextFloat();
+        this.title = t;
+        this.price = p;
+    }
+    void putdata()
+    {
+        System.out.println("Publication title: " + title + "\n");
+        System.out.println("Publication price: " + price + "\n");
+    }
 }
 class book extends publication
 {
