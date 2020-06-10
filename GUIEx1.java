@@ -9,14 +9,14 @@ public class GUIEx1
 }
 class n extends JFrame
 {
-public n()
-{
-JLabel l = new JLabel("Welcome Animesh9");
-add(l);
-setLayout(new FlowLayout());
-setVisible(true);
-setSize(700,500);
-setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-}
+    public n()
+    {
+        JLabel l = new JLabel("Welcome Animesh9");
+        add(l);
+        setLayout(new FlowLayout());
+        setVisible(true);
+        setSize(700,500);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
 }
 // ... Basic GUI ...
