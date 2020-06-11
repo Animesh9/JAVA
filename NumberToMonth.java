@@ -3,21 +3,21 @@ public class NumberToMonth
 {
     public static void main(String args[])
     {
-Scanner s = new Scanner(System.in);
-System.out.println("Enter the number t find the month " );
-int n = s.nextInt();
-System.out.println("The month is "+ n);
-if (n==1)
-System.out.println("January");
-else if(n==2)
-System.out.println("February");
-else if(n==3)
-System.out.println("March");
-else if(n==4)
-System.out.println("April");
-else if(n==5)
-System.out.println("May");
-else if(n==6)
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter the number t find the month " );
+        int n = s.nextInt();
+        System.out.println("The month is "+ n);
+        if (n==1)
+        System.out.println("January");
+        else if(n==2)
+        System.out.println("February");
+        else if(n==3)
+        System.out.println("March");
+        else if(n==4)
+        System.out.println("April");
+        else if(n==5)
+        System.out.println("May");
+        else if(n==6)
 System.out.println("June");
 else if(n==7)
 System.out.println("July");
