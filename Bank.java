@@ -46,43 +46,46 @@ class account  // account class
         System.out.println("Account Number " + accno);
         System.out.println("Balance " + bal);
     }
-void deposit(){
-Scanner s = new Scanner(System.in);
-int amt;
-System.out.println("Enter the amount to deposit");
-amt = s.nextInt();
-bal=bal+amt;
-}
+    void deposit()
+    {
+        Scanner s = new Scanner(System.in);
+        int amt;
+        System.out.println("Enter the amount to deposit");
+        amt = s.nextInt();
+        bal=bal+amt;
+    }
 }
 class savacct extends account //another class saving account is extended by account
 {
-Scanner s = new Scanner(System.in);
-double inter;
-int comp_int(){
-int time1,rate1;
-rate1=10;
-System.out.println("\nEnter time");
-time1 = s.nextInt();
-inter = bal*Math.pow(1+rate1/100 , time1) - bal ;//this is mathematical function used to calculate balance
-return 1 ;
-}
-void update_bal()
-{
-bal=bal+comp_int();
-}
-void withdrawal()//amount withdrwal is shown here
-{
-int amt;
-System.out.println("Enter amount to withdrawn");
-amt = s.nextInt();
-if(bal>=amt){
-bal=bal-amt;
-}
-else
-{
-System.out.println("The amount cannot be withdrawn");
-}
-}
+    Scanner s = new Scanner(System.in);
+    double inter;
+    int comp_int()
+    {
+        int time1,rate1;
+        rate1=10;
+        System.out.println("\nEnter time");
+        time1 = s.nextInt();
+        inter = bal*Math.pow(1+rate1/100 , time1) - bal ;//this is mathematical function used to calculate balance
+        return 1 ;
+    }
+    void update_bal()
+    {
+        bal=bal+comp_int();
+    }
+    void withdrawal()//amount withdrwal is shown here
+    {
+        int amt;
+        System.out.println("Enter amount to withdrawn");
+        amt = s.nextInt();
+        if(bal>=amt)
+        {
+            bal=bal-amt;
+        }
+        else
+        {
+            System.out.println("The amount cannot be withdrawn");
+        }
+    }
 }
 class curacct extends account  //class current account is extended by account
 {
