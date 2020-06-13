@@ -89,24 +89,24 @@ class savacct extends account //another class saving account is extended by acco
 }
 class curacct extends account  //class current account is extended by account
 {
-Scanner s = new Scanner(System.in);
-int chq_bk;
-int penal;
-int min_bal()
-{
-int ret1=1;
-if(bal<=500)
-{
-penal=50;
-bal=bal-penal;
-ret1=0;
-}
-else
-{
-System.out.println("\n No penality imposed");
-}
-return ret1;
-}
+    Scanner s = new Scanner(System.in);
+    int chq_bk;
+    int penal;
+    int min_bal()
+    {
+        int ret1=1;
+        if(bal<=500)
+        {
+            penal=50;
+            bal=bal-penal;
+            ret1=0;
+        }
+        else
+        {
+            System.out.println("\n No penality imposed");
+        }
+        return ret1;
+    }
 void withdrawal()   //withdrawal in current account
 {
 int amt;
