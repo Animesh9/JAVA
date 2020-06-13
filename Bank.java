@@ -107,22 +107,22 @@ class curacct extends account  //class current account is extended by account
         }
         return ret1;
     }
-void withdrawal()   //withdrawal in current account
-{
-int amt;
-System.out.println("\n Enter the amount to withdrawn");
-amt = s.nextInt();
-int k=min_bal();
-if(k==1)
-{
-if(bal>=amt)
-bal=bal-amt;
-}
-else
-{
-System.out.println("\n The amount cannot be withdrawn");
-}
-}
+    void withdrawal()   //withdrawal in current account
+    {
+        int amt;
+        System.out.println("\n Enter the amount to withdrawn");
+        amt = s.nextInt();
+        int k=min_bal();
+        if(k==1)
+        {
+            if(bal>=amt)
+            bal=bal-amt;
+        }
+        else
+        {
+            System.out.println("\n The amount cannot be withdrawn");
+        }
+    }
 }
 public class Bank  //bank class 
 {
