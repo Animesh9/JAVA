@@ -19,32 +19,33 @@ import java.util.Scanner;
 import java.lang.Math;
 class account  // account class
 {
-String cname;
-int accno;
-String type;
-int bal;
-void account(String cname , int accno , String type, int bal)//In this constructor account parameters are passed.
-{
-this.cname = cname;
-this.accno = accno;
-this.type = type;
-this.bal = bal;
-}
-void input()
-{
-Scanner s = new Scanner(System.in);
-System.out.println("Enter cname");
-cname = s.nextLine();//user input of name is done using scanner class
-System.out.println("Enter accno");
-accno = s.nextInt();
-System.out.println("Enter bal");
-bal = s.nextInt();//scanning balance
-}
-void display(){
-System.out.println("Customer Name " + cname);
-System.out.println("Account Number " + accno);
-System.out.println("Balance " + bal);
-}
+    String cname;
+    int accno;
+    String type;
+    int bal;
+    void account(String cname , int accno , String type, int bal)//In this constructor account parameters are passed.
+    {
+        this.cname = cname;
+        this.accno = accno;
+        this.type = type;
+        this.bal = bal;
+    }
+    void input()
+    {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter cname");
+        cname = s.nextLine();//user input of name is done using scanner class
+        System.out.println("Enter accno");
+        accno = s.nextInt();
+        System.out.println("Enter bal");
+        bal = s.nextInt();//scanning balance
+    }
+    void display()
+    {
+        System.out.println("Customer Name " + cname);
+        System.out.println("Account Number " + accno);
+        System.out.println("Balance " + bal);
+    }
 void deposit(){
 Scanner s = new Scanner(System.in);
 int amt;
