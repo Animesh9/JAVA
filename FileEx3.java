@@ -12,12 +12,12 @@ public class FileEx3
             fout.write(ch[i]);
 
         fout.close();
-do 
-{
-i = fin.read();
-if(i!= -1)
-System.out.print((char)i);
-}while(i!=-1);
-fin.close();
-}
+        do 
+        {
+            i = fin.read();
+            if(i!= -1)
+            System.out.print((char)i);
+        }while(i!=-1);
+        fin.close();
+    }
 }
