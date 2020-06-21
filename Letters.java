@@ -12,10 +12,10 @@ class Letters
                 str.replace(i, i+1, Character.toLowerCase(c)+""); 
         } 
     } 
-public static void main(String[] args) 
-{ 
-StringBuffer str = new StringBuffer("hey how are you"); 
-convertOpposite(str); 
-System.out.println(str); 
-} 
+    public static void main(String[] args) 
+    { 
+        StringBuffer str = new StringBuffer("hey how are you"); 
+        convertOpposite(str); 
+        System.out.println(str); 
+    } 
 } 
