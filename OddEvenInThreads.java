@@ -46,10 +46,10 @@ class odd extends Thread
 }
 class OddEvenInThreads
 {
-public static void main(String arg[])
-{
-even e=new even();
-odd o=new odd();
-}
+    public static void main(String arg[])
+    {
+        even e=new even();
+        odd o=new odd();
+    }
 }
 //.....LAB CODE.....
