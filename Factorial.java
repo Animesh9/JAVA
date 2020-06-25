@@ -10,6 +10,6 @@ class Factorial
     {
       pr = pr * i;
     }
-    System.out.println(pr);
+    System.out.println(pr); //factorial output
   }
 }
