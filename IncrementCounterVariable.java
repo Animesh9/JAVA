@@ -21,13 +21,13 @@ class item
 }
 class data extends item implements Runnable
 {
-item d=this;
-Thread t;
-data()
-{
-t=new Thread(this);
-t.start();
-}
+    item d=this;
+    Thread t;
+    data()
+    {
+        t=new Thread(this);
+        t.start();
+    }
 public void run()
 { d=sync.increment(d); }
 }
