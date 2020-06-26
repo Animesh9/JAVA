@@ -28,9 +28,10 @@ class data extends item implements Runnable
         t=new Thread(this);
         t.start();
     }
-public void run()
-{ d=sync.increment(d); }
-}
+    public void run()
+    { 
+        d=sync.increment(d); }
+    }
 class sync
 {
 synchronized static item increment(item i)
