@@ -15,7 +15,10 @@ class IncrementCounterVariable
         System.out.println(d10.count);
     }
 }
-class item { static int count=0; }
+class item
+{ 
+    static int count=0; 
+}
 class data extends item implements Runnable
 {
 item d=this;
