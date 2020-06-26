@@ -34,9 +34,9 @@ class data extends item implements Runnable
     }
 class sync
 {
-synchronized static item increment(item i)
-{
-i.count++;
-return(i);
-}
+    synchronized static item increment(item i)
+    {
+        i.count++;
+        return(i);
+    }
 }
