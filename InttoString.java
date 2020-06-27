@@ -5,7 +5,8 @@ public class Solution {
 
   DoNotTerminate.forbidExit();
 
-  try {
+  try 
+  {
    Scanner in = new Scanner(System.in);
    int n = in .nextInt();
    in.close();
