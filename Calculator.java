@@ -29,6 +29,6 @@ public class Calc
                 System.out.println("Wrong call please try again!!!" );
             System.out.println("if u want to try again press y" );
             dec = Calc.next().charAt(0);
-            }while(dec=='y');//if decisision is y = yes then the loop will recurse again
+        }while(dec=='y');//if decisision is y = yes then the loop will recurse again
     }
 }
