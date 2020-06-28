@@ -1,21 +1,22 @@
 import java.util.Scanner; //importing Scanner class
-public class Calc{
-public static void main(String args[])//main...
+public class Calc
 {
-int add, sub, mul, div;
-char dec ;
-Scanner Calc = new Scanner(System.in);
-//DO-WHILE loop for RECURSION
-do
-{
-//Calculator functions
-System.out.println("Choose \n1 add \n2 sub\n 3 mul\n4 div " );
-int n = Calc.nextInt();
-int a=25, b=5;
-add= a+b;     //Addition
-sub=a-b;      //Subtraction 
-mul=a*b;      //Multiply
-div=a/b;      //Division
+    public static void main(String args[])//main...
+    {
+        int add, sub, mul, div;
+        char dec ;
+        Scanner Calc = new Scanner(System.in);
+        //DO-WHILE loop for RECURSION
+        do
+        {
+            //Calculator functions
+            System.out.println("Choose \n1 add \n2 sub\n 3 mul\n4 div " );
+            int n = Calc.nextInt();
+            int a=25, b=5;
+            add= a+b;     //Addition
+            sub=a-b;      //Subtraction 
+            mul=a*b;      //Multiply
+            div=a/b;      //Division
 if(n==1)
 System.out.println("Addition is "+ add );
 else if(n==2)
