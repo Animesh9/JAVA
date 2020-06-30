@@ -7,12 +7,12 @@ class player
         name=n; 
         age=a;
     }
-void show()
-{
-System.out.println("\n");
-System.out.println("Player name : "+name);
-System.out.println("Age : "+age);
-}
+    void show()
+    {
+        System.out.println("\n");
+        System.out.println("Player name : "+name);
+        System.out.println("Age : "+age);
+    }
 }
 class cricket_player extends player
 {
