@@ -1,9 +1,12 @@
 class player
 {
-String name;
-int age;
-player(String n, int a)
-{name=n; age=a;}
+    String name;
+    int age;
+    player(String n, int a)
+    {
+        name=n; 
+        age=a;
+    }
 void show()
 {
 System.out.println("\n");
