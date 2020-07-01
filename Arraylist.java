@@ -19,6 +19,15 @@ public class Solution
                 list[i].add(s.nextInt());                
             }
         }
-       
+        q=s.nextInt();
+        for(int i=0;i<q;i++){
+            x=s.nextInt();
+            y=s.nextInt();
+            try{
+                System.out.println(list[x-1].get(y-1));
+            } catch(Exception e){
+                System.out.println("ERROR!");
+            }
+        }
     }
 }
