@@ -58,13 +58,13 @@ class hockey_player extends player
 }
 class Player
 {
-public static void main(String args[])
-{
-cricket_player c1 = new cricket_player("Virat","Cricket",30);
-football_player c2 = new football_player("Mbappe","Football",20);
-hockey_player c3 = new hockey_player("Salah","Hockey",25);
-c1.show();
-c2.show();
-c3.show();
-}
+    public static void main(String args[])
+    {
+        cricket_player c1 = new cricket_player("Virat","Cricket",30);
+        football_player c2 = new football_player("Mbappe","Football",20);
+        hockey_player c3 = new hockey_player("Salah","Hockey",25);
+        c1.show();
+        c2.show();
+        c3.show();
+    }
 }
