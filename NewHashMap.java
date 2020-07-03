@@ -30,20 +30,20 @@ class NewHashMap
             }
         }
     } 
-System.out.println();
-System.out.println("Printing as key set :");
-Iterator it = map.keySet().iterator();
-while(it.hasNext())
-{ 
-System.out.println(it.next().toString());
-}
-System.out.println();
-System.out.println("Printing as entry set :");
-it = map.entrySet().iterator();
-while(it.hasNext())
-{
-System.out.println(it.next().toString());
-}
+    System.out.println();
+    System.out.println("Printing as key set :");
+    Iterator it = map.keySet().iterator();
+    while(it.hasNext())
+    { 
+        System.out.println(it.next().toString());
+    }
+    System.out.println();
+    System.out.println("Printing as entry set :");
+    it = map.entrySet().iterator();
+    while(it.hasNext())
+    {
+        System.out.println(it.next().toString());
+    }
 if (map.isEmpty()) 
 { 
 System.out.println("map is empty"); 
