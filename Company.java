@@ -24,17 +24,16 @@ class employee
     {
         return salary;
     }
-double increaseSalary(double per_in)
-{
-double in=(salary*(per_in/100));
-double s=salary+in;
-return s;
-}
+    double increaseSalary(double per_in)
+    {
+        double in=(salary*(per_in/100));
+        double s=salary+in;
+        return s;
+    }
 }
 class manager extends employee
 {
-public String department="d";
-
+    public String department="d";
 }
 class Company{
 public static void main(String args[])
