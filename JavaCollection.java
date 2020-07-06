@@ -10,21 +10,23 @@ class JavaCollection
         List names = new ArrayList<String>();
         names.add("Animesh");
         names.add("Ani");
-names.add("Kush");
-names.add("Roman");
-List Dnames = new ArrayList<String>();
-Dnames = names;
-Collections.reverse(names);
-Iterator IDnames = Dnames.iterator();
-System.out.println("Actual list OR Duplicated list :");			
-while(IDnames.hasNext()){
-System.out.println(IDnames.next());			
-}
-System.out.println();
-Iterator Inames = names.iterator();
-System.out.println("Reversed List :");
-while(Inames.hasNext()){
-System.out.println(Inames.next());			
-}
-}
+        names.add("Kush");
+        names.add("Roman");
+        List Dnames = new ArrayList<String>();
+        Dnames = names;
+        Collections.reverse(names);
+        Iterator IDnames = Dnames.iterator();
+        System.out.println("Actual list OR Duplicated list :");			
+        while(IDnames.hasNext())
+        {
+            System.out.println(IDnames.next());			
+        }
+        System.out.println();
+        Iterator Inames = names.iterator();
+        System.out.println("Reversed List :");
+        while(Inames.hasNext())
+        {
+            System.out.println(Inames.next());			
+        }
+    }
 }
