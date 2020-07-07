@@ -1,12 +1,13 @@
 import java.util.Scanner;
-public class PosComb{
-public static void main(String args[])
+public class PosComb
 {
-Scanner pc = new Scanner(System.in);
-int a[] = new  int[3] ;
-System.out.println("Enter any 3 numbers from o-9");
-for (int i=0; i<3; i++)
-a[i] = pc.nextInt();
+    public static void main(String args[])
+    {
+        Scanner pc = new Scanner(System.in);
+        int a[] = new  int[3] ;
+        System.out.println("Enter any 3 numbers from o-9");
+        for (int i=0; i<3; i++)
+        a[i] = pc.nextInt();
 //...All Possible Combination Without Repetition...
 for (int x = 0; x < 3; x++)
 {
