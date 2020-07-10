@@ -7,9 +7,8 @@ o	void talk() - which causes the animal to display on the screen their name, age
  Create a Zoo class containing an array of references to animals with the functionality below- 
  
 The Zoo provides the following methods :-  o addAnimal(Animal newAnimal) - which adds a new animal to the Zoo.  o displayAnimals() - which displays a list of the type and name of all animals   	 	 	 	 	    in the zoo.  
-o	void feedingTime() - which causes all animals in the zoo to talk one after the   	 	 	 	 	other.  
- 
-The main  class has following functionalities-  
+ovoid feedingTime() - which causes all animals in the zoo to talk one after the other.  
+ The main  class has following functionalities-  
 Add a new animal to the zoo - first prompting for name and type and creating the animal.  
 Display all animals currently in the zoo.  
 Display the name and age of the animal in a selected type. 
