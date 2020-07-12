@@ -1,16 +1,13 @@
 //Assignment Q2
 /*
-Create a class Rectangle. The class has attributes length and width, each of which defaults to 1.
-It has member functions that calculate the perimeter and the area of the rectangle.
-It has set and get functions for both length and width. 
-The set functions should verify that length and width are each floating-point numbers larger than 
-0.0 and less than 20.0 otherwise should throw a user defined exception. Create a more sophisticated
-constructor Rectangle of the class. This class stores only the Cartesian coordinates of the four 
-corners of the rectangle. The constructor calls a set function that accepts four sets of coordinates
-and verifies that each of these is in the first quadrant with no single x or y coordinate larger 
-than 20.0 otherwise throw an exception. The set function also verifies that the supplied coordinates
-do, in fact, specify a rectangle otherwise throw an exception. Member functions calculate the length,
-width, perimeter and area. The length is the larger of the two dimensions.
+Create a class Rectangle. The class has attributes length and width, each of which defaults to 1. it has member functions 
+that calculate the perimeter and the area of the rectangle. It has set and get functions for both length and width. The set
+functions should verify that length and width are each floating-point numbers larger than 0.0 and less than 20.0 otherwise 
+should throw a user defined exception. Create a more sophisticated constructor Rectangle of the class. This class stores only 
+the Cartesian coordinates of the four corners of the rectangle. The constructor calls a set function that accepts four sets of
+coordinates and verifies that each of these is in the first quadrant with no single x or y coordinate larger than 20.0 otherwise
+throw an exception. The set function also verifies that the supplied coordinates do, in fact, specify a rectangle otherwise throw
+an exception. Member functions calculate the lengthwidth, perimeter and area. The length is the larger of the two dimensions.
 Include a function square that determines if the rectangle is a square.
 */
 import java.util.Scanner;
