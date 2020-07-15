@@ -26,3 +26,5 @@ public class Solution{
         System.out.print(a.add(10,32) + " " + a.add(10,3) + " " + a.add(10,10) + "\n");
      }
 }
+
+//HackerRank Code
