@@ -27,4 +27,4 @@ public class Solution{
      }
 }
 
-//HackerRank Code
+//HackerRank Code for Inheritance2
