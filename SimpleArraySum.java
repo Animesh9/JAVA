@@ -36,15 +36,11 @@ public class SimpleArraySum {
             int arItem = Integer.parseInt(arItems[arItr].trim());
             ar[arItr] = arItem;
         }
-
         int result = simpleArraySum(ar);
-
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
-
         bufferedWriter.close();
     }
-
 }
 
 
