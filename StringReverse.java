@@ -14,3 +14,4 @@ public class Solution {
         System.out.println( (count == A.length()/2) ? "Yes" : "No") ;
     }
 }
+//Code for HackerRank
